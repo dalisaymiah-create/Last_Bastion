@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfakb4q46je28"]
+
+[ext_resource type="Texture2D" uid="uid://cidodvvflpu3p" path="res://assets/tilesets/towerDefense_tile249.png" id="1_k1sas"]
+
+[node name="Tower" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -7)
+texture = ExtResource("1_k1sas")
+centered = false
