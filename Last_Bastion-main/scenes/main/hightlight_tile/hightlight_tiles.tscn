@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cc3y48jkcjx1b"]
+
+[ext_resource type="Script" uid="uid://f02l3suy8ocd" path="res://scenes/main/hightlight_tile/highlight_tile.gd" id="1_3e4fu"]
+[ext_resource type="Texture2D" uid="uid://bv3diks7p22rf" path="res://assets/tilesets/towerDefense_tile015.png" id="2_gfggp"]
+
+[node name="HightlightTiles" type="Node2D"]
+script = ExtResource("1_3e4fu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(33, 33)
+texture = ExtResource("2_gfggp")
