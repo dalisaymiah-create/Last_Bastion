@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://6agwija8xrja"]
+
+[ext_resource type="Texture2D" uid="uid://bhio2srpavpm2" path="res://assets/tilesets/towerDefense_tile245.png" id="1_kkssg"]
+[ext_resource type="Script" uid="uid://cjyeef1uq0ld0" path="res://enemyentry.gd" id="1_wkfs0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wkfs0"]
+radius = 17.117243
+
+[node name="enemy_entity" type="CharacterBody2D"]
+script = ExtResource("1_wkfs0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_kkssg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_wkfs0")
